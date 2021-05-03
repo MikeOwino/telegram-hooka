@@ -34,7 +34,9 @@ def doc_handler(update, context):
 
     csvFilePath = "file1.csv"
     jsonFilePath = "data.json"
+    
     # read the csv and add the data to a dictionary
+
     data = {}
     list2 = []
     with open("file1.csv") as f:
